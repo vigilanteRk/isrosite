@@ -1,0 +1,107 @@
+body {
+  font: 18px "Trebuchet MS", "Open Sans", Arial, helvetica, Sans-serif;
+  line-height: 1.6em;
+}
+a,
+b {
+  text-decoration: none;
+  color: #126681;
+}
+p {
+  color: #fdfefe;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  background-image: url("../images/back1-compressor.jpg");
+  background-image: image-set("https://unsplash.com/photos/7E2IVelB3zg");
+  background-position: left;
+  background-size: cover;
+  min-height: auto;
+
+  color: #fff;
+}
+header .orange {
+  color: #e59866;
+}
+
+header .blue {
+  color: #3a93cf; /*#3498db; */
+}
+
+img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.container img {
+  width: auto;
+  height: auto;
+  border-radius: 40%;
+  padding: 10px;
+}
+.c1 {
+  flex: 1;
+}
+.c2 {
+  flex: 1;
+}
+.c3 {
+  flex: 1;
+}
+.mission {
+  display: flex;
+  text-align: center;
+  font: 18px "Open Sans", Arial, helvetica, Sans-serif;
+  /* justify-content: space-between; */
+  border: 1px #ccc solid;
+  margin-top: 9px;
+}
+.mission a:hover {
+  color: #3498db;
+}
+.mission p {
+  color: #abb2b9;
+}
+.m1 {
+  flex: 1;
+}
+.m2 {
+  flex: 1;
+}
+.m3 {
+  flex: 1;
+}
+.m4 {
+  flex: 1;
+}
+.m5 {
+  flex: 1;
+}
+.m6 {
+  flex: 1;
+}
+h2 {
+  text-align: center;
+}
+.timeline {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-content: space-between;
+}
+
+.t1 {
+  display: grid;
+  grid-template-columns: 60% 60%;
+  /* padding-top: 10%;
+  padding-bottom: 2%;
+  padding-left: 10%;
+  padding-right: 35%; */
+  padding: 10% 35% 2% 10%;
+  flex: 1;
+  color: white;
+  background: #17202a;
+}
