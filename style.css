@@ -108,3 +108,18 @@ h2 {
 footer {
   text-align: center;
 }
+
+@media (max-width: 600px) {
+  .container {
+    width: 100%;
+    flex: none;
+  }
+  .mission {
+    width: 100%;
+    flex: none;
+  }
+  .timeline {
+    width: 100%;
+    grid: none;
+  }
+}
